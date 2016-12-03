@@ -1,0 +1,26 @@
+{
+  "name": "sea-battle",
+  "version": "1.0.0",
+  "description": "App for improving skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index",
+    "start1": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts"
+  },
+  "author": "Oleg kushch",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.8"
+  },
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "socket.io": "^1.7.1",
+    "webpack": "^1.13.3"
+  }
+}
